@@ -80,6 +80,21 @@ h3 {
   width: 100%;
 }
 
+.section-padding {
+  padding: 40px 0px;
+}
+
+.section-title {
+  margin-bottom: 32px;
+}
+
+.section-title h2:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.section-title p {
+  margin-bottom: 0px;
+}
 
 
 /* header-css-start */
@@ -95,6 +110,9 @@ h3 {
 
 
 /* hero-css-start */
+.hero-area {
+  padding-bottom: 40px;
+}
 
 .hero-wrapper {
   display: flex;
@@ -131,4 +149,129 @@ h3 {
 
 .hero-img img {
   max-width: 100%;
+}
+
+/* vision-area */
+
+.vision-items {
+  display: flex;
+  align-items: stretch;
+  margin: 0px -12px;
+}
+
+.vision-column {
+  flex: 0 0 auto;
+  width: 33.33%;
+  padding: 0px 12px;
+  margin-bottom: 32px;
+}
+
+.vision-item {
+  border-radius: 16px;
+  padding: 33px 33px;
+  height: 100%;
+}
+
+.vision-item__icon {
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.vision-item__icon img {
+  max-width: 100%;
+}
+
+.vision-item__content h4 {
+  font-size: 20px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.vision-item__content p {
+  margin-bottom: 22px;
+}
+
+
+.vision-item .btn {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.vision-item--digital {
+  background-color: #5490F533;
+}
+
+.vision-item--digital a.btn {
+  background-color: #5490F5;
+  border-color: #5490F5;
+  color: #fff;
+}
+
+.vision-item--digital a.btn:hover {
+  background-color: #035bf3;
+  border-color: #035bf3;
+  color: #fff;
+}
+
+
+.vision-item--energy {
+  background-color: #C6E4D6;
+}
+
+.vision-item--energy a.btn {
+  background-color: #09A15C;
+  border-color: #09A15C;
+  color: #fff;
+}
+
+.vision-item--energy a.btn:hover {
+  background-color: #006e3d;
+  border-color: #006e3d;
+  color: #fff;
+}
+
+.vision-item--modern {
+  background-color: #F7EBCF;
+}
+
+.vision-item--modern a.btn {
+  background-color: #FFC239;
+  border-color: #FFC239;
+  color: #fff;
+}
+
+.vision-item--modern a.btn:hover {
+  background-color: #be8602;
+  border-color: #be8602;
+  color: #fff;
+}
+
+.vision-quote {
+  background-color: #fff;
+  border: 1px solid #0E0E0E26;
+  border-radius: 16px;
+  padding: 44px 24px;
+  background-image: url('./imgs/quote-bg.png');
+  background-repeat: no-repeat;
+  background-position: 25px 24px;
+}
+
+.vision-quote p {
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.vision-quote h5 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.vision-quote h5 span {
+  display: block;
+  color: #0E0E0E99;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
 }
