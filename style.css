@@ -189,8 +189,8 @@ h3 {
 
 .vision-item__content p {
   margin-bottom: 22px;
+  min-height: 72px;
 }
-
 
 .vision-item .btn {
   font-size: 16px;
@@ -485,6 +485,9 @@ input:focus {
   outline: none;
 }
 
+section.newsletter-area {
+  padding-bottom: 80px;
+}
 
 /* footer-css */
 
@@ -509,4 +512,5 @@ input:focus {
 
 footer.footer {
   padding: 18px 0px;
+  background-color: #fff;
 }
